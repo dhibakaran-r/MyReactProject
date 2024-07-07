@@ -1,0 +1,126 @@
+.navbar{
+    width: 250px;
+    background-color: #E9E7EB;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 80px;
+}
+
+.menus{
+    margin-left: 2rem;
+    font-size: 2rem;
+    background: none;
+}
+
+.nav-bar{
+    background-color: rgb(80, 77, 77);
+    width: 300px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    /* left: -100%; */
+    transition: 800ms;
+}
+
+.nav-bar.active{
+    left: 0;
+    transition: 250ms;
+}
+
+.item-name{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 8px 0px 8px 16px;
+    list-style: none;
+    height: 60px;
+}
+
+.item-name a{
+    text-decoration: none;
+    color: #fff;
+    background: rgb(74,77,84);
+    background: linear-gradient(90deg, rgba(74,77,84,1) 0%, rgba(91,93,102,1) 35%, rgba(105,109,118,1) 100%);
+    font-size: 18px;
+    width: 95%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    border-radius: 4px;
+}
+
+.item-name a:hover{
+    background: red;
+}
+
+.nav-items{
+    width: 100%;
+}
+
+.toggle{
+    background-color: #EAE8EC;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.logo-block{
+    background-color: #EAE8EC;
+    width: 100%;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.logo-block .nav-logo{
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-left: 32px;
+}
+
+.nav-logo .logo {
+    width: 25%;
+    display: flex;
+    /* height: 136px; */
+    justify-content: center;
+    align-items: center;
+}
+
+
+.nav-logo .title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    /* position: relative;
+    right: 14px; */
+}
+
+.nav-logo .title h2{
+    font-size: 16px;
+    line-height: 1.4444;
+    text-transform: uppercase;
+}
+.navcontainer{
+    display: flex;
+}
+.nav-logo .title p{
+    /* color: #A1A0A7; */
+    color: slategray;
+    width: 11rem;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 1.4444;
+    font-family: cursive;}
+.item-name span{
+    margin-left: 16px;
+}

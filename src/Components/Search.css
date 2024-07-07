@@ -1,0 +1,25 @@
+.search-block {
+    display: flex;
+    width: 100%;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    height: 5rem;
+}
+
+.search-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search-icon {
+    position: relative;
+    font-size: 1.5rem;
+}
+
+input.search-bar {
+    outline: none;
+    padding: 6px 10rem 6px 1rem;
+    border: none;
+}
